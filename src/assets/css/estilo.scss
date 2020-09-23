@@ -1,0 +1,62 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+html,body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cinema{
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+
+  
+}
+
+
+nav{
+  background: red;
+  box-shadow: 0 1px 1px red;
+  border-radius: 2px; 
+  width: 100%;
+  display: inline-block;
+  margin: 60px auto 45px;
+} 
+// menu
+
+.menu{
+  color:white;
+  text-decoration: none;
+  padding: 18px 30px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+
+
+        &:hover{
+          color: black;
+        }
+}
+
+// rodape
+.rodape{
+  position:absolute;
+    bottom:0px;
+    border-radius: 2px; 
+    background: black;
+    color: white;
+    width: 99%;
+    
+}
+
+.banner{
+  height: 100px;
+}
